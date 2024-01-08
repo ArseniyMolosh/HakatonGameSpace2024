@@ -1,0 +1,508 @@
+header {
+    display: flex;
+    background-color: black;
+    height: 40px;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+
+}
+
+.gaijin {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.span {
+    color:darkgray;
+    padding: 0 20px;
+    font-family: Arial;
+    font-size: 17px;
+    transition-duration: 0.5s;
+}
+
+.shop {
+    color: rgb(237, 215, 159);
+}
+
+a:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.span-header-top {
+    padding: 10px;
+    height: 20px;
+    transition-duration: 0.5s;
+}
+
+.span-header-top:hover {
+    color: white;
+    background-color: gray;
+    transition-duration: 0.5s;
+}
+
+.span-header-top-shop {
+    padding: 10px;
+    height: 20px;
+    transition-duration: 0.5s;
+}
+
+.span-header-top-shop:hover {
+    background-color: gray;
+    transition-duration: 0.5s;
+}
+
+.span-header-bottom {
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 63px 10px;
+    transition-duration: 0.5s;
+}
+
+.span-header-bottom:hover {
+    border-bottom: red solid 2px;
+    color: red;
+    transition-duration: 0.5s;
+}
+
+.a-header-bottom {
+    position: relative;
+    top: 60px;
+}
+
+.div-header-span {
+    display: flex;
+}
+
+.span-header {
+    font-size: 20px;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    background-image: url('https://staticfiles-ru.warthunder.com/upload/image/!2023/10/events/wt_11_years/3840x2160_wt_11_years_dark_logo_350d5262b9af1fc9a67369b049fb4cd5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.wt-img {
+    width: 700px;
+}
+
+.wt-img-header {
+    width: 270px;
+    height: 135px;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+    transition-duration: 0.5s;
+}
+
+.signUp-bottom {
+    width: 450px;
+    height: 80px;
+    background-color: rgb(229, 57, 53, 0.7);
+    color: white;
+    border-radius: 7px;
+    font-size: 30px;
+    border-color: red;
+    transition-duration: 0.5s;
+}
+
+.signUp-bottom:hover {
+    background-color: rgb(229, 57, 53, 1);
+    transition-duration: 0.5s;
+}
+
+.signUp-top {
+    background-color: rgb(229, 57, 53, 0.6);
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    height: 35px;
+    margin-top: 45px;
+    padding-top: 5px;
+    border-radius: 3px;
+    position: relative;
+    top: 8px;
+    transition-duration: 0.5s;
+    border: red solid 3px;
+}
+
+.signUp-top-color {
+    color: white;
+    font-size: 18px;
+}
+
+.signUp-top:hover {
+    background-color: rgb(229, 57, 53, 1);
+    transition-duration: 0.5s;
+}
+
+.download {
+    background-color: rgba(2, 3, 4, 1);
+    opacity: 0.5;
+    color: white;
+    width: 450px;
+    height: 50px;
+    border: white solid 2px;
+    border-radius: 4px;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+.download:hover {
+    color: #9ee3ff;
+    transition-duration: 0.5s;
+}
+
+
+.body-top {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left: 25%;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.body {
+    width: 100%;
+}
+
+footer {
+    position: relative;
+    top: 2500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.socNetwork {
+    background-color: rgb(76, 75, 75);
+    display: flex;
+    justify-content: center;
+}
+
+.sn-div {
+    height: 60px;
+    width: 200px;
+    position: relative;
+    opacity: 0.8;
+    transition-duration: 0.5s;
+}
+
+.sn-div:hover {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.sn-gaijin {
+    background-color: gray;
+}
+
+.sn-img {
+    width: 40px;
+    position: relative;
+    right: 70px;
+    top: 10px;
+}
+
+.sn-telegram {
+    background-color: #209ed4;
+}
+
+.sn-wk {
+    background-color: rgb(77, 118, 161);
+}
+
+.sn-facebook {
+    background-color: rgb(75, 107, 175);
+}
+
+.sn-instagram {
+    background-color: rgb(149, 40, 127);
+}
+
+.sn-twitter {
+    background-color: rgb(12, 133, 208);
+}
+
+.sn-youtube {
+    background-color: rgb(196, 23, 23);
+}
+
+.p-sn {
+    width: 140px;
+    height: 60px;
+    position: relative;
+    left: 60px;
+    bottom: 61px;
+    font-family: arial;
+    text-align: left;
+    letter-spacing: -1px;
+    color: white;
+}
+
+.p-sn-h {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.fastAccess {
+    background-color: rgb(13, 17, 20);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.fastAccess-div {
+    width: 250px;
+    height: 300px;
+    text-align: left;
+}
+
+.fastAccess-div-top {
+    width: 250px;
+    height: 50px;
+}
+
+.fastAccess-div-bottom {
+    width: 250px;
+    height: 250px;
+}
+
+.fastAccess-img {
+    height: 50px;
+    position: relative;
+    top: 15px;
+}
+
+.fastAccess-text {
+    font-size: 25px;
+    font-family: arial;
+    color: gray;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    bottom: 15px;
+    transition-duration: 0.5s;
+}
+
+.fastAccess-text:hover {
+    color: gray;
+    transition-duration: 0.5s;
+}
+
+.fastAccess-span {
+    color: gray;
+    transition-duration: 0.2s;
+}
+
+.fastAccess-span:hover {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.fastAccess-span-bottom {
+    color: gray;
+    font-size: 20px;
+    font-family: arial;
+    transition-duration: 0.2s;
+}
+
+.fastAccess-span-bottom:hover {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.partners {
+    position: absolute;
+    top: 350px;
+}
+
+.body-bottom-gradient {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(4deg, #13191b, #0001);
+    position: absolute;
+    top: 900px;
+}
+
+.body-bottom {
+    background-color: #13191b;
+    width: 100%;
+    height: 2500px;
+    position: absolute;
+    top: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-bottom-1 {
+    width: 1200px;
+    height: 1400px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.body-bottom-1-1 {
+    width: 100%;
+    height: 50px;
+}
+
+.body-bottom-1-span-1 {
+    color: white;
+    font-size: 30px;
+    font-family: arial;
+}
+
+.body-bottom-1-span-2 {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.body-bottom-1-23 {
+    display: flex;
+}
+
+.body-bottom-1-2 {
+    width: 780px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-1 {
+    width: 360px;
+    height: 300px;
+    background-color: rgb(38, 50, 56);
+    margin: 0 22px 20px 0;
+}
+
+.body-bottom-1-3 {
+    width: 420px;
+}
+
+.card-2 {
+    width: 360px;
+    height: 165px;
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+
+.body-bottom-2 {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    border: solid 2px gray;
+    display: flex;
+    justify-content: center;
+}
+
+.card-3 {
+    width: 270px;
+    height: 140px;
+    margin: 27px 10px;
+}
+
+.body-bottom-3 {
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-bottom-3-1 {
+    height: 40px;
+    width: 100%;
+    text-align: left;
+}
+
+.body-bottom-3-2 {
+    display: flex;
+}
+
+.card-4 {
+    width: 270px;
+    height: 240px;
+    background-color: rgb(38, 50, 56);
+    margin: 20px 10px;
+}
+
+.card-1-img {
+    width: 100%;
+}
+
+.card {
+    border: 2px solid gray;
+    transition-duration: 0.3s;
+}
+
+.card:hover {
+    border-color: white;
+    transition-duration: 0.3s;
+}
+
+.card:hover {
+    width: 365px;
+}
+
+.card-2-img {
+    width: 100%;
+    height: 100%;
+}
+
+.span-1 {
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 700;
+    color: white;
+}
+
+.span-2 {
+    font-size: 25px;
+    color: rgb(201, 210, 213);
+    position: relative;
+    bottom: 35px;
+    left: 15px;
+    font-family: arial;
+}
+
+.card-3-img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition-duration: 0.3s;
+}
+
+.card-3-img:hover {
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+.span-3 {
+    font-size: 25px;
+    color: rgb(201, 210, 213);
+    position: relative;
+    bottom: 35px;
+    right: 50px;
+    font-family: arial;
+}
